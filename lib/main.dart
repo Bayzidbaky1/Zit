@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:zitui/pages/AllPage.dart';
+import 'package:zitui/pages/Card.dart';
 
 
 void main() {
@@ -17,6 +18,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: AllPage());
+        home: CardPage());
   }
 }

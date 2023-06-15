@@ -1212,12 +1212,14 @@ class CardPage extends StatelessWidget {
                                                                 padding:
                                                                     const EdgeInsets
                                                                         .all(2),
-                                                                child: Text(
-                                                                  "yyyy-mm-dd",
-                                                                  style: TextStyle(
-                                                                      fontSize:
-                                                                          14),
-                                                                ),
+                                                                child: TextFormField(
+                                                                  keyboardType:TextInputType.datetime,
+                                                               decoration: InputDecoration(
+                                                                
+                                                                border: InputBorder.none,
+                                                                hintText: "yyyy-mm-dd"
+                                                               ),
+                                                              ),
                                                               ))
                                                         ],
                                                       ),
@@ -1255,14 +1257,13 @@ class CardPage extends StatelessWidget {
                                                                 padding:
                                                                     const EdgeInsets
                                                                         .all(2),
-                                                                child: Text(
-                                                                  "total Amount",
-                                                                  style: TextStyle(
-                                                                      fontSize:
-                                                                          14,
-                                                                      color: Colors
-                                                                          .grey),
-                                                                ),
+                                                                child: TextFormField(
+                                                                  keyboardType:TextInputType.number,
+                                                               decoration: InputDecoration(
+                                                                border: InputBorder.none,
+                                                                hintText: "Total Amount"
+                                                               ),
+                                                              ),
                                                               ))
                                                         ],
                                                       ),
@@ -1300,14 +1301,13 @@ class CardPage extends StatelessWidget {
                                                                 padding:
                                                                     const EdgeInsets
                                                                         .all(2),
-                                                                child: Text(
-                                                                  "Cleared Amount",
-                                                                  style: TextStyle(
-                                                                      fontSize:
-                                                                          14,
-                                                                      color: Colors
-                                                                          .grey),
-                                                                ),
+                                                                child: TextFormField(
+                                                                  keyboardType:TextInputType.number,
+                                                               decoration: InputDecoration(
+                                                                border: InputBorder.none,
+                                                                hintText: "Cleard Amount"
+                                                               ),
+                                                              ),
                                                               ))
                                                         ],
                                                       ),
@@ -1345,14 +1345,13 @@ class CardPage extends StatelessWidget {
                                                                 padding:
                                                                     const EdgeInsets
                                                                         .all(2),
-                                                                child: Text(
-                                                                  "Due Amount",
-                                                                  style: TextStyle(
-                                                                      fontSize:
-                                                                          14,
-                                                                      color: Colors
-                                                                          .grey),
-                                                                ),
+                                                                child: TextFormField(
+                                                                  keyboardType:TextInputType.number,
+                                                               decoration: InputDecoration(
+                                                                border: InputBorder.none,
+                                                                hintText: "Due Amount"
+                                                               ),
+                                                              ),
                                                               ))
                                                         ],
                                                       ),
@@ -1390,14 +1389,13 @@ class CardPage extends StatelessWidget {
                                                                 padding:
                                                                     const EdgeInsets
                                                                         .all(2),
-                                                                child: Text(
-                                                                  "Paid Amount",
-                                                                  style: TextStyle(
-                                                                      fontSize:
-                                                                          14,
-                                                                      color: Colors
-                                                                          .grey),
-                                                                ),
+                                                                child: TextFormField(
+                                                                  keyboardType:TextInputType.number,
+                                                               decoration: InputDecoration(
+                                                                border: InputBorder.none,
+                                                                hintText: "Paid Amount"
+                                                               ),
+                                                              ),
                                                               ))
                                                         ],
                                                       ),
@@ -1435,14 +1433,12 @@ class CardPage extends StatelessWidget {
                                                                 padding:
                                                                     const EdgeInsets
                                                                         .all(2),
-                                                                child: Text(
-                                                                  "Due After Payment Amt",
-                                                                  style: TextStyle(
-                                                                      fontSize:
-                                                                          14,
-                                                                      color: Colors
-                                                                          .grey),
-                                                                ),
+                                                                child: TextFormField(
+                                                               decoration: InputDecoration(
+                                                                border: InputBorder.none,
+                                                                hintText: "Due after payment Amt"
+                                                               ),
+                                                              ),
                                                               ))
                                                         ],
                                                       ),
@@ -1513,14 +1509,12 @@ class CardPage extends StatelessWidget {
                                                                 padding:
                                                                     const EdgeInsets
                                                                         .all(2),
-                                                                child: Text(
-                                                                  "Bank",
-                                                                  style: TextStyle(
-                                                                      fontSize:
-                                                                          14,
-                                                                      color: Colors
-                                                                          .grey),
-                                                                ),
+                                                                child: TextFormField(
+                                                               decoration: InputDecoration(
+                                                                border: InputBorder.none,
+                                                                hintText: "Bank"
+                                                               ),
+                                                              ),
                                                               ))
                                                         ],
                                                       ),
@@ -1558,14 +1552,12 @@ class CardPage extends StatelessWidget {
                                                                 padding:
                                                                     const EdgeInsets
                                                                         .all(2),
-                                                                child: Text(
-                                                                  "Refference",
-                                                                  style: TextStyle(
-                                                                      fontSize:
-                                                                          14,
-                                                                      color: Colors
-                                                                          .grey),
-                                                                ),
+                                                                child: TextFormField(
+                                                               decoration: InputDecoration(
+                                                                border: InputBorder.none,
+                                                                hintText: "Refference"
+                                                               ),
+                                                              ),
                                                               ))
                                                         ],
                                                       ),
@@ -1599,19 +1591,16 @@ class CardPage extends StatelessWidget {
                                                                         .circular(
                                                                             2.5),
                                                               ),
-                                                              child: Padding(
-                                                                padding:
-                                                                    const EdgeInsets
-                                                                        .all(2),
-                                                                child: Text(
-                                                                  "Remarks",
-                                                                  style: TextStyle(
-                                                                      fontSize:
-                                                                          14,
-                                                                      color: Colors
-                                                                          .grey),
-                                                                ),
-                                                              ))
+                                                              child: TextFormField(
+                                                                
+                                                               decoration: InputDecoration(
+                                                                
+                                                                border: InputBorder.none,
+                                                                
+                                                                hintText: "Remarks"
+                                                               ),
+                                                              ),
+                                                          )
                                                         ],
                                                       ),
                                                     ),
